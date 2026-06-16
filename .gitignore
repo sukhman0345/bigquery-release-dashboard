@@ -1,0 +1,44 @@
+# Python cache and byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+lib/
+pip-selfcheck.json
+
+# Flask / Django configuration secrets
+.env
+.flaskenv
+instance/
+
+# Credentials, Keys and Secrets
+*.key
+*.pem
+credentials.json
+client_secrets.json
+.secrets/
+secrets.py
+config_private.py
+
+# IDE / Editor configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS generated files
+Thumbs.db
+db.db
+Desktop.ini
+.DS_Store
